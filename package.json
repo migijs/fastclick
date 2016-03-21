@@ -1,6 +1,6 @@
 {
   "name": "migi-fastclick",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Polyfill to remove click delays on browsers with touch UIs.",
   "maintainers": [
     {
@@ -24,6 +24,10 @@
     }
   ],
   "main": "lib/fastclick.js",
+  "spm": {
+    "main": "lib/fastclick.js",
+    "registry": "http://spm.alipay-inc.com"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/ftlabs/fastclick.git"
